@@ -10,12 +10,11 @@ touch ~/.linvimrc
 touch ~/.zshrc
 
 # Software Dependency
-sudo dnf install -y git vim gvim curl wget zsh
-sudo dnf install -y gcc g++ clang autoconf automake make cmake
-sudo dnf install -y openssl openssh openssh-server openssh-clients cryptopp-devel
-sudo dnf install -y the_silver_searcher ripgrep unzip bzip2
-sudo dnf install -y python3 python3-devel python3-pip nodejs npm jedi
-sudo pip3 install pyOpenSSL pep8 flake8 pylint autopep8 yapf cpplint
+sudo dnf install -y git vim gvim curl wget zsh gcc g++ clang autoconf automake make cmake pkgconfig
+sudo dnf install -y openssl openssh openssh-server openssh-clients the_silver_searcher ripgrep unzip unrar zip bzip2 p7zip
+sudo dnf install -y cryptopp-devel libseccomp-devel jansson-devel libyaml-devel libxml2-devel
+sudo dnf install -y python3 python3-devel python3-pip python3-docutils nodejs npm
+sudo pip3 install pyOpenSSL pep8 flake8 pylint autopep8 yapf cpplint jedi
 
 # Vim Plugins
 cp ~/.vim/lin.vim ~/.vimrc

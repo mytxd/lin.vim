@@ -10,9 +10,11 @@ touch ~/.linvimrc
 touch ~/.zshrc
 
 # Software Dependency
-sudo apt-get install -y git vim vim-gtk libcanberra-gtk-module curl wget zsh gcc g++ clang cmake autoconf automake clang-format build-essential
-sudo apt-get install -y libssl-dev openssh-server libcrypto++-dev silversearcher-ag ripgrep unzip bzip2 unrar zip p7zip
-sudo apt-get install -y python3 python3-dev python3-pip libssl1.0-dev nodejs nodejs-dev node-gyp npm
+sudo apt install -y git vim vim-gtk libcanberra-gtk-module curl wget zsh
+sudo apt install -y gcc g++ clang make cmake autoconf automake pkg-config clang-format build-essential
+sudo apt install -y libssl-dev openssh-server libcrypto++-dev libseccomp-dev libjansson-dev libyaml-dev libxml2-dev
+sudo apt install -y silversearcher-ag ripgrep unzip unrar zip bzip2 p7zip
+sudo apt install -y python3 python3-dev python3-pip python3-docutils libssl1.0-dev nodejs nodejs-dev node-gyp npm
 sudo pip3 install pyOpenSSL pep8 flake8 pylint autopep8 yapf cpplint chardet jedi
 
 # Vim Plugins

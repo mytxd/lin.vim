@@ -13,6 +13,7 @@ touch ~/.zshrc
 brew upgrade
 brew install macvim zsh curl wget llvm autoconf automake cmake clang-format
 brew install openssl openssh cryptopp the_silver_searcher ripgrep python3 unzip zip p7zip node
+brew install --HEAD universal-ctags/universal-ctags/universal-ctags
 sudo pip3 install pyOpenSSL pep8 flake8 pylint autopep8 yapf cpplint chardet jedi
 
 # Vim Plugin
@@ -40,6 +41,7 @@ echo "alias vim=/usr/local/bin/vim" >> ~/.linvimrc
 echo "alias l=\"ls -lh\"" >> ~/.linvimrc
 echo "alias ll=\"ls -lah\"" >> ~/.linvimrc
 echo "export PATH=\$PATH:~/.vim/command" >> ~/.linvimrc
+echo "export PATH=/usr/local/opt/universal-ctags/bin:\$PATH" >> ~/.linvimrc
 
 echo "source ~/.linvimrc" >> ~/.zshrc
 source ~/.zshrc 1>/dev/null 2>&1

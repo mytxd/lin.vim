@@ -96,8 +96,10 @@ Please manually install [Hack Nerd Font Mono](https://github.com/ryanoasis/nerd-
     * Common Windows Platform Development.
 7.  Install [LLVM](http://releases.llvm.org/download.html), add `clangd.exe` and `clang-format.exe` to `%PATH%`.
 8.  Install [NodeJs](https://nodejs.org/), add `node.exe` and `npm.exe` to `%PATH%`.
-9.  Install [ag](https://github.com/k-takata/the_silver_searcher-win32/releases), add `ag.exe` to `%PATH%`.
-10. Add `%USERPROFILE%\.vim\command` to `%PATH%`.
+9.  Install [the_silver_searcher](https://github.com/k-takata/the_silver_searcher-win32/releases), add `ag.exe` to `%PATH%`.
+10. Install [ripgrep](https://github.com/BurntSushi/ripgrep/releases), add `rg.exe` to `%PATH%`.
+10. Install [universal-ctags](https://github.com/universal-ctags/ctags-win32/releases), add `ctags.exe` to `%PATH%`.
+11. Add `%USERPROFILE%\.vim\command` to `%PATH%`.
 
 
 ```bash

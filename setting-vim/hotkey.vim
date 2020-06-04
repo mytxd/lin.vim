@@ -1,13 +1,15 @@
 " Key Operations
 
 " switch between C/C++ header source
-map <F4> :CocCommand clangd.switchSourceHeader<CR>
-" open/close nerdtree file explorer
-map <F5> :NERDTreeToggle<CR>
+nmap <F4> :CocCommand clangd.switchSourceHeader<CR>
 " open terminal
-map <F6> :terminal ++rows=20<CR>
+nmap <F5> :terminal ++rows=20<CR>
 " next color
-map <F7> :NextColor<CR>
+nmap <F6> :NextColor<CR>
+" open/close nerdtree file explorer
+nmap <F7> :NERDTreeToggle<CR>
+" open/close tagbar
+nmap <F8> :TagbarToggle<CR>
 
 " Command Operations
 
